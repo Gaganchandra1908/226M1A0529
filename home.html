@@ -12,7 +12,7 @@ initial-scale=1.0">
       font-family: 'Arial', sans-serif;
       margin: 0;
       padding: 0;
-        background: linear-gradient(45deg, #ff6b6b, #556270);
+        background: linear-gradient(45deg, #ff6b6b, #E8BCB9);
       color: #333;
     }
 
@@ -24,7 +24,7 @@ initial-scale=1.0">
 
     /* Header Styles */
     header {
-      background-color: #333;
+      background-color: #AE445A;
       color: #fff;
       padding: 20px;
       text-align: center;
@@ -33,6 +33,7 @@ initial-scale=1.0">
     header h1 {
       font-size: 2.5em;
       margin: 0;
+ background-color:#AE445A;
     }
 
     /* Navigation Styles */
@@ -60,19 +61,22 @@ initial-scale=1.0">
 ('https://via.placeholder.com/1500x500');
       background-size: cover;
       background-position: center;
-      color: #fff;
+      color: #AE445A;
       text-align: center;
       padding: 100px 0;
+ 
     }
 
     .hero h1 {
       font-size: 3em;
       margin-bottom: 20px;
+      
     }
 
     .hero p {
       font-size: 1.2em;
       margin-bottom: 40px;
+      
     }
 
     .hero .button {
@@ -106,28 +110,52 @@ initial-scale=1.0">
       transition: all 0.3s ease;
     }
 
-    .feature:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    }
+  .circle-icon {
+    width: 150px;
+    height: 150px;
+    border-radius:100%;
+    background-color: 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    
+  }
 
-    footer {
-      background-color: #333;
-      color: #fff;
-      text-align: center;
-      padding: 20px;
-      margin-top: 50px;
-    }
-  </style>
+  .circle-icon img {
+    max-width: 100%; /* Adjust the size of the image as needed */
+    max-height: 100%; /* Adjust the size of the image as needed */
+    border-radius: 60%; /* Ensure the image itself is circular */
+     
+  }
+p
+{
+font-size:20px;
+}
+
+</head>
+</style>
+
+
+  
+            
 </head>
 <body>
-    <header>
+  
+<header>
         <h1>Welcome to My Homepage</h1>
     </header>
-
+	  
      <main>
 <center>
-        <img src=""/>
+<div class="circle-icon">
+  <img src="C:\Users\barap\OneDrive\Downloads\images (3).jpg" alt="Icon Image">
+
+  
+</div>
+<div class="p">
         <p>Name: Gagan chandra</p>
         <p>Roll No: 226M1A0529</p>
 
@@ -141,6 +169,7 @@ DEPARTMENT OF CSE</p>
             <p class="department-info">Program: SKILL ORIENTED 
 
 LAB</p>
+</div>
 </center>
         </section>
     </main>
